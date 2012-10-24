@@ -16,6 +16,8 @@ Backend for the second homework.
 
 Array of items.
 
+### response
+
 	[
    		{
       		"id":1,
@@ -39,6 +41,8 @@ Array of items.
 
 Detailed info of an item.
 
+### response
+
 	{
 	   "available":"2012-10-30",
 	   "created_at":"2012-10-24T14:03:27Z",
@@ -55,6 +59,8 @@ Detailed info of an item.
 
 Creates new item at the server.
 
+### arguments
+
 	{
 	   "available":"2012-10-30",
 	   "created_at":"2012-10-24T14:03:27Z",
@@ -69,7 +75,9 @@ Creates new item at the server.
 	
 ## PUT /items/\<id\>
 
-Updated an item at the server.
+Updates an item at the server.
+
+### arguments
 
 	{
 	   "available":"2012-10-30",
