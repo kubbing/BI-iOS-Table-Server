@@ -16,7 +16,7 @@ Backend for the second homework.
 
 Array of items.
 
-### response
+### response:
 
 	[
    		{
@@ -41,7 +41,7 @@ Array of items.
 
 Detailed info of an item.
 
-### response
+### response:
 
 	{
 	   "available":"2012-10-30",
@@ -59,7 +59,7 @@ Detailed info of an item.
 
 Creates new item at the server.
 
-### arguments
+### arguments:
 
 	{
 	   "available":"2012-10-30",
@@ -77,7 +77,7 @@ Creates new item at the server.
 
 Updates an item at the server.
 
-### arguments
+### arguments:
 
 	{
 	   "available":"2012-10-30",
