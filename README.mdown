@@ -1,1 +1,86 @@
-HeLLO
+# BI-iOS-Table-Server
+
+Backend for the second homework.
+
+# Installation
+
+1. clone to you computer
+2. cd into folder
+3. type `rails server`
+4. verify at [http://localhost:3000/items][http://localhost:3000/items]
+5. profit!
+
+# Usage
+
+## GET /items.json
+
+Array of items.
+
+	[
+   		{
+      		"id":1,
+      		"created_at":"2012-10-24T14:03:27Z",
+      		"title":"First Entry",
+      		"subtitle":"\u2026totally awesome",
+      		"price":"9.99",
+      		"available":"2012-10-30"
+   		},
+   		{
+      		"id":3,
+      		"created_at":"2012-10-24T14:13:30Z",
+      		"title":"yahooo",
+      		"subtitle":"dobry den",
+      		"price":"6.5",
+      		"available":null
+   		}
+   	]
+	
+## GET /items/\<id\>.json
+
+Detailed info of an item.
+
+	{
+	   "available":"2012-10-30",
+	   "created_at":"2012-10-24T14:03:27Z",
+	   "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+	   "id":1,
+	   "imageurl":"http://illy.kubbing.com/t-ar/1.gif",
+	   "price":"9.99",
+	   "subtitle":"\u2026totally awesome",
+	   "title":"First Entry",
+	   "updated_at":"2012-10-24T14:03:43Z"
+	}
+	
+## POST /items
+
+Creates new item at the server.
+
+	{
+	   "available":"2012-10-30",
+	   "created_at":"2012-10-24T14:03:27Z",
+	   "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+	   "id":1,
+	   "imageurl":"http://illy.kubbing.com/t-ar/1.gif",
+	   "price":"9.99",
+	   "subtitle":"\u2026totally awesome",
+	   "title":"First Entry",
+	   "updated_at":"2012-10-24T14:03:43Z"
+	}
+	
+## PUT /items/\<id\>
+
+Updated an item at the server.
+
+	{
+	   "available":"2012-10-30",
+	   "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+	   "imageurl":"http://illy.kubbing.com/t-ar/1.gif",
+	   "price":"9.99",
+	   "subtitle":"\u2026totally awesome",
+	   "title":"First Entry",
+	   "updated_at":"2012-10-24T14:03:43Z"
+	}
+	
+## DELETE /items/\<id\>
+
+Deletes an item at the server.
