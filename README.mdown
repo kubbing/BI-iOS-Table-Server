@@ -46,7 +46,7 @@ Nagivate in browser to: `http://localhost:3000` and you should see **welcome abo
 
 1. clone to you computer
 2. cd into folder
-3. type `rails server`
+3. type `$ rails server`
 4. verify at `http://localhost:3000/items`
 5. profit!
 
