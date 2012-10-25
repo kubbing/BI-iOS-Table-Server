@@ -10,19 +10,19 @@ Backend for the second homework.
 
 ### rvm - the ruby version manager (in ~/.rvm folder, does not break anything within system)
 
-#### Install rvm.
+#### Install rvm (as user in ~/.rvm)
 
-`$ bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)`
+`$ \curl -L https://get.rvm.io | bash -s stable`
 
-#### Load rvm in a shell.
+#### Load rvm in a shell (you can add this line into .bashrc)
 
 `$ [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"`
 
-#### Install lastest ruby.
+#### Install lastest ruby (takes a while…)
 
 `$ rvm install 1.9.3 && rvm use 1.9.3 && rvm --default use 1.9.3`
 
-#### Intall rails
+#### Intall rails (takes a while...)
 
 `$ gem install rails`
 
@@ -34,7 +34,7 @@ Backend for the second homework.
 
 `$ rails server`
 
-browse to: `http://localhost:3000`
+nagivate in browser to: `http://localhost:3000`
 
 ## Steps
 
