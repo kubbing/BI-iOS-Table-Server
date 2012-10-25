@@ -73,7 +73,7 @@ Creates new item at the server.
 	   "updated_at":"2012-10-24T14:03:43Z"
 	}
 	
-### response:
+### response (not related to the request arguments above):
 
 	{
 	    available = "<null>";
