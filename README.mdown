@@ -2,11 +2,11 @@
 
 Backend for the second homework.
 
-# Installation
-
 ## Prerequisities
 
-### XCode
+Note: Tested on both OS X and Linux (Wheezy 64b).
+
+### XCode (on Linux, you need curl, build-essentials, …)
 
 ### rvm - the ruby version manager (in ~/.rvm folder, does not break anything within system)
 
@@ -32,9 +32,15 @@ Backend for the second homework.
 
 `$ cd test.rails`
 
+Uncomment this line `# gem 'therubyracer', :platforms => :ruby` in the `Gemfile` file.
+
+`$ bundle install`
+
 `$ rails server`
 
-nagivate in browser to: `http://localhost:3000`
+Nagivate in browser to: `http://localhost:3000` and you should see **welcome aboard** page.
+
+# Installation
 
 ## Steps
 
