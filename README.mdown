@@ -135,13 +135,13 @@ Updates an item at the server.
 ### arguments:
 
 	{
-	   "available":"2012-10-30",
-	   "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-	   "imageurl":"http://illy.kubbing.com/t-ar/1.gif",
-	   "price":"9.99",
-	   "subtitle":"\u2026totally awesome",
-	   "title":"First Entry",
-	   "updated_at":"2012-10-24T14:03:43Z"
+	   "item[available]":"2012-10-30",
+	   "item[description]":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+	   "item[imageurl]":"http://illy.kubbing.com/t-ar/1.gif",
+	   "item[price]":"9.99",
+	   "item[subtitle]":"\u2026totally awesome",
+	   "item[title]":"First Entry",
+	   "item[updated_at]":"2012-10-24T14:03:43Z"
 	}
 	
 ## DELETE /items/\<id\>
