@@ -45,10 +45,12 @@ Nagivate in browser to: `http://localhost:3000` and you should see **welcome abo
 ## Steps
 
 1. clone to you computer
-2. cd into folder
-3. type `$ rails server`
-4. verify at `http://localhost:3000/items`
-5. profit!
+- cd into folder
+- type `rake db:create`
+- type `rake db:migrate`
+- type `$ rails server`
+- verify at `http://localhost:3000/items`
+- profit!
 
 # Usage
 
