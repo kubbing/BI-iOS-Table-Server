@@ -140,7 +140,6 @@ Updates an item at the server.
 	   "item[price]":"9.99",
 	   "item[subtitle]":"\u2026totally awesome",
 	   "item[title]":"First Entry",
-	   "item[updated_at]":"2012-10-24T14:03:43Z"
 	}
 	
 ## DELETE /items/\<id\>
