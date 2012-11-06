@@ -142,6 +142,6 @@ Updates an item at the server.
 	   "item[title]":"First Entry",
 	}
 	
-## DELETE /items/\<id\>
+## DELETE /items/\<id\>.json
 
 Deletes an item at the server.
