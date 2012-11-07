@@ -139,7 +139,7 @@ Updates an item at the server.
 	   "item[imageurl]":"http://illy.kubbing.com/t-ar/1.gif",
 	   "item[price]":"9.99",
 	   "item[subtitle]":"\u2026totally awesome",
-	   "item[title]":"First Entry",
+	   "item[title]":"First Entry"
 	}
 	
 ## DELETE /items/\<id\>.json
